@@ -34,7 +34,7 @@ class PhotoListViewControllerTests: XCTestCase {
         XCTAssertNotNil(sut.photoListCollectionView)
     }
 
-    func test_PhotoListProvider() {
+    func test_PhotoListDataSource() {
         XCTAssertTrue(sut.photoListCollectionView.dataSource is PhotoListProvider)
-    }
+    }    
 }
